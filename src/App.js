@@ -1,23 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
+import Navebar from './components/Navebar/Navebar';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navebar></Navebar>
+      <h1 className='text-6xl text-left'>NEW SMART WATCH</h1>
+      <h1 className='text-6xl text-left '>Classy! Get in Reasonable Price</h1>
+      <img src="/public/piaget-1636410151.jpg" alt="" />
     </div>
   );
 }
